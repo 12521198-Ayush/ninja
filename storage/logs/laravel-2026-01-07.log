@@ -1,0 +1,2 @@
+[2026-01-07 15:46:56] local.INFO: send message check for messenger [{"message":"","receiver_id":"88969","document":"","reply_message_id":"","image":{"Illuminate\\Http\\UploadedFile":"C:\\xampp\\tmp\\php3561.tmp"}}] 
+[2026-01-07 15:46:56] local.ERROR: send Image Message :  | Exception: copy(C:\Users\ayush\Downloads\well-known\storage\app/temp_695e3298c8c09.mp3): Failed to open stream: No such file or directory | File: C:\Users\ayush\Downloads\well-known\app\Traits\ImageTrait.php | Line: 997  

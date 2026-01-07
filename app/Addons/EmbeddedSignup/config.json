@@ -1,0 +1,41 @@
+{
+    "name": "EmbeddedSignup",
+    "description": "This addon integrates a floating signup widget into your web application, allowing users to effortlessly sign up via the WhatsApp Business Platform.",
+    "version": "1.2.0",
+    "author": {
+        "name": "SpaGreen Creative",
+        "url": "https://codecanyon.net/user/spagreen/portfolio"
+    },
+    "tags": [
+        "WhatsApp Business",
+        "Embedded Signup",
+        "Floating Widget",
+        "User Engagement",
+        "Addon"
+    ],
+    "addon_identifier": "embedded_signup",
+    "required_cms_version": "230",
+    "required_app_version": "230",
+    "license": {
+        "type": "General Public License",
+        "url": "https://mit-license.org/GPL"
+    },
+    "terms": "This software is licensed under the GPL for purchasers via CodeCanyon. Redistribution without appropriate licensing is prohibited.",
+    "features": [
+        "Seamless signup process via WhatsApp Business",
+        "Floating widget for easy access on any webpage",
+        "User analytics to track signups and engagement",
+        "Simple installation and configuration"
+    ],
+    "support": {
+        "contact_email": "support@spagreen.net",
+        "documentation_url": "https://spagreen.net/docs/embedded-signup-whatsapp-business"
+    },
+    "changelog": [
+        {
+            "version": "1.2.0",
+            "date": "2025-09-10",
+            "changes": "Embedded Signup Client Login Issue."
+        }
+    ]
+}

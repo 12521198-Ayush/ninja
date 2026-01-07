@@ -1,0 +1,1306 @@
+[2026-01-01 23:15:18] local.ERROR: Route [client.settings.webhook] not defined. {"view":{"view":"C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\partials\\sidebar.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-1321304144 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#2198</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1321304144\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","client":"<pre class=sf-dump id=sf-dump-1717562451 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Client</span> {<a class=sf-dump-ref>#2222</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"7 characters\">clients</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:34</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>company_name</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Ram Dalal Holidays</span>\"
+    \"<span class=sf-dump-key>logo</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"24 characters\">ram-dalal-holidays-k3zje</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-num>101</span>
+    \"<span class=sf-dump-key>timezone</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Asia/Kolkata</span>\"
+    \"<span class=sf-dump-key>address</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Delhi</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>payment_details</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>stripe_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>paddle_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_verify_token</span>\" => \"<span class=sf-dump-str title=\"40 characters\">h8w4eHFFUu9fJsGE2zQCQwCDugPg3NYqEROn53eq</span>\"
+    \"<span class=sf-dump-key>api_key</span>\" => \"<span class=sf-dump-str title=\"40 characters\">9LEu4YcyW3UYfHT7oWb46OMMZQ1WFyiTKvKO9Fr2</span>\"
+    \"<span class=sf-dump-key>whatsapp_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>messenger_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>telegram_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>open_ai_key</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_enable_ai_reply</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:46:49</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 10:08:01</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>marketing</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>utility</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>authentication</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>user_initiated</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>wallet</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:34</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>company_name</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Ram Dalal Holidays</span>\"
+    \"<span class=sf-dump-key>logo</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"24 characters\">ram-dalal-holidays-k3zje</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-num>101</span>
+    \"<span class=sf-dump-key>timezone</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Asia/Kolkata</span>\"
+    \"<span class=sf-dump-key>address</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Delhi</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>payment_details</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>stripe_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>paddle_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_verify_token</span>\" => \"<span class=sf-dump-str title=\"40 characters\">h8w4eHFFUu9fJsGE2zQCQwCDugPg3NYqEROn53eq</span>\"
+    \"<span class=sf-dump-key>api_key</span>\" => \"<span class=sf-dump-str title=\"40 characters\">9LEu4YcyW3UYfHT7oWb46OMMZQ1WFyiTKvKO9Fr2</span>\"
+    \"<span class=sf-dump-key>whatsapp_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>messenger_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>telegram_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>open_ai_key</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_enable_ai_reply</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:46:49</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 10:08:01</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>marketing</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>utility</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>authentication</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>user_initiated</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>wallet</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>logo</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+    \"<span class=sf-dump-key>webhook_enabled</span>\" => \"<span class=sf-dump-str title=\"7 characters\">boolean</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>activeSubscription</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\Subscription
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Subscription</span></span> {<a class=sf-dump-ref>#2224</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"13 characters\">subscriptions</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:36</span> [ &#8230;36]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:36</span> [ &#8230;36]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:32</span> [ &#8230;32]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+    \"<span class=sf-dump-key>user</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\User
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">User</span></span> {<a class=sf-dump-ref>#2225</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">users</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:38</span> [ &#8230;38]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:38</span> [ &#8230;38]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:3</span> [ &#8230;3]
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:29</span> [ &#8230;29]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">rememberTokenName</span>: \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">accessToken</span>: <span class=sf-dump-const>null</span>
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:16</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"13 characters\">ai_secret_key</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"12 characters\">company_name</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"4 characters\">logo</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"8 characters\">timezone</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"4 characters\">slug</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"10 characters\">country_id</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"7 characters\">address</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"20 characters\">webhook_verify_token</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"7 characters\">api_key</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"18 characters\">stripe_customer_id</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"18 characters\">paddle_customer_id</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"19 characters\">big_commerce_status</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"11 characters\">webhook_url</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"15 characters\">webhook_enabled</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"14 characters\">webhook_secret</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1717562451\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","active_subscription":"<pre class=sf-dump id=sf-dump-111618366 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Subscription</span> {<a class=sf-dump-ref>#2224</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"13 characters\">subscriptions</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:36</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>277</span>
+    \"<span class=sf-dump-key>client_id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>plan_id</span>\" => <span class=sf-dump-num>12</span>
+    \"<span class=sf-dump-key>is_recurring</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>conversation_remaining</span>\" => <span class=sf-dump-num>4948</span>
+    \"<span class=sf-dump-key>campaign_remaining</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>purchase_date</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-20 23:17:05</span>\"
+    \"<span class=sf-dump-key>expire_date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">2026-01-20</span>\"
+    \"<span class=sf-dump-key>canceled_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>price</span>\" => <span class=sf-dump-num>0.0</span>
+    \"<span class=sf-dump-key>package_type</span>\" => \"<span class=sf-dump-str title=\"7 characters\">monthly</span>\"
+    \"<span class=sf-dump-key>contact_limit</span>\" => <span class=sf-dump-num>2000</span>
+    \"<span class=sf-dump-key>campaign_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>conversation_limit</span>\" => <span class=sf-dump-num>5000</span>
+    \"<span class=sf-dump-key>team_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>max_chatwidget</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>max_flow_builder</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>max_bot_reply</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>ai_credit</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>telegram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>messenger_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>instagram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>trx_id</span>\" => \"<span class=sf-dump-str title=\"9 characters\">offline-0</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => \"<span class=sf-dump-str title=\"7 characters\">offline</span>\"
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"32 characters\">&quot;{\\&quot;payment_type\\&quot;:\\&quot;offline\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:47:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-24 00:17:46</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:36</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>277</span>
+    \"<span class=sf-dump-key>client_id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>plan_id</span>\" => <span class=sf-dump-num>12</span>
+    \"<span class=sf-dump-key>is_recurring</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>conversation_remaining</span>\" => <span class=sf-dump-num>4948</span>
+    \"<span class=sf-dump-key>campaign_remaining</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>purchase_date</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-20 23:17:05</span>\"
+    \"<span class=sf-dump-key>expire_date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">2026-01-20</span>\"
+    \"<span class=sf-dump-key>canceled_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>price</span>\" => <span class=sf-dump-num>0.0</span>
+    \"<span class=sf-dump-key>package_type</span>\" => \"<span class=sf-dump-str title=\"7 characters\">monthly</span>\"
+    \"<span class=sf-dump-key>contact_limit</span>\" => <span class=sf-dump-num>2000</span>
+    \"<span class=sf-dump-key>campaign_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>conversation_limit</span>\" => <span class=sf-dump-num>5000</span>
+    \"<span class=sf-dump-key>team_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>max_chatwidget</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>max_flow_builder</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>max_bot_reply</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>ai_credit</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>telegram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>messenger_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>instagram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>trx_id</span>\" => \"<span class=sf-dump-str title=\"9 characters\">offline-0</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => \"<span class=sf-dump-str title=\"7 characters\">offline</span>\"
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"32 characters\">&quot;{\\&quot;payment_type\\&quot;:\\&quot;offline\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:47:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-24 00:17:46</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>plan</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\Plan
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Plan</span></span> {<a class=sf-dump-ref>#2261</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">plans</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:22</span> [ &#8230;22]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:22</span> [ &#8230;22]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:18</span> [ &#8230;18]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:32</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"9 characters\">client_id</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"7 characters\">plan_id</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"12 characters\">is_recurring</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"13 characters\">purchase_date</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"11 characters\">expire_date</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"5 characters\">price</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"12 characters\">package_type</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"13 characters\">contact_limit</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"14 characters\">campaign_limit</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"18 characters\">campaign_remaining</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"18 characters\">conversation_limit</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"22 characters\">conversation_remaining</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"10 characters\">team_limit</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"14 characters\">max_chatwidget</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"16 characters\">max_flow_builder</span>\"
+    <span class=sf-dump-index>16</span> => \"<span class=sf-dump-str title=\"13 characters\">max_bot_reply</span>\"
+    <span class=sf-dump-index>17</span> => \"<span class=sf-dump-str title=\"15 characters\">telegram_access</span>\"
+    <span class=sf-dump-index>18</span> => \"<span class=sf-dump-str title=\"16 characters\">messenger_access</span>\"
+    <span class=sf-dump-index>19</span> => \"<span class=sf-dump-str title=\"16 characters\">instagram_access</span>\"
+    <span class=sf-dump-index>20</span> => \"<span class=sf-dump-str title=\"6 characters\">trx_id</span>\"
+    <span class=sf-dump-index>21</span> => \"<span class=sf-dump-str title=\"14 characters\">payment_method</span>\"
+    <span class=sf-dump-index>22</span> => \"<span class=sf-dump-str title=\"15 characters\">payment_details</span>\"
+    <span class=sf-dump-index>23</span> => \"<span class=sf-dump-str title=\"11 characters\">canceled_at</span>\"
+    <span class=sf-dump-index>24</span> => \"<span class=sf-dump-str title=\"12 characters\">billing_name</span>\"
+    <span class=sf-dump-index>25</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_email</span>\"
+    <span class=sf-dump-index>26</span> => \"<span class=sf-dump-str title=\"15 characters\">billing_address</span>\"
+    <span class=sf-dump-index>27</span> => \"<span class=sf-dump-str title=\"12 characters\">billing_city</span>\"
+    <span class=sf-dump-index>28</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_state</span>\"
+    <span class=sf-dump-index>29</span> => \"<span class=sf-dump-str title=\"16 characters\">billing_zip_code</span>\"
+    <span class=sf-dump-index>30</span> => \"<span class=sf-dump-str title=\"15 characters\">billing_country</span>\"
+    <span class=sf-dump-index>31</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_phone</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-111618366\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","charts":"<pre class=sf-dump id=sf-dump-1735499641 data-indent-pad=\"  \"><span class=sf-dump-note>array:7</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>labels</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">February</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"5 characters\">March</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"5 characters\">April</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"3 characters\">May</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"4 characters\">June</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"4 characters\">July</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"6 characters\">August</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"9 characters\">September</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"7 characters\">October</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"8 characters\">November</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"8 characters\">December</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"7 characters\">January</span>\"
+  </samp>]
+  \"<span class=sf-dump-key>total_contacts</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>105</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>105</span>
+  </samp>]
+  \"<span class=sf-dump-key>new_contacts</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>105</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+  \"<span class=sf-dump-key>whatsapp_campaign</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>3</span>
+  </samp>]
+  \"<span class=sf-dump-key>telegram_campaign</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+  \"<span class=sf-dump-key>whatsapp_conversation</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>53</span>
+  </samp>]
+  \"<span class=sf-dump-key>telegram_conversation</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1735499641\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","usages":"<pre class=sf-dump id=sf-dump-198499896 data-indent-pad=\"  \"><span class=sf-dump-note>array:4</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>team</span>\" => <span class=sf-dump-num>1</span>
+  \"<span class=sf-dump-key>campaign</span>\" => <span class=sf-dump-num>3</span>
+  \"<span class=sf-dump-key>contact</span>\" => <span class=sf-dump-num>105</span>
+  \"<span class=sf-dump-key>conversation</span>\" => <span class=sf-dump-num>52</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-198499896\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","read_rate":"<pre class=sf-dump id=sf-dump-591011682 data-indent-pad=\"  \"><span class=sf-dump-num>71.428571428571</span>
+</pre><script>Sfdump(\"sf-dump-591011682\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":177,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [client.settings.webhook] not defined. at C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('client.settings...', Array, true)
+#1 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\partials\\sidebar.blade.php(512): route('client.settings...')
+#2 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#3 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#5 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#6 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#7 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\layouts\\master.blade.php(4): Illuminate\\View\\View->render()
+#10 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#11 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#13 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#14 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#15 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\dashboard.blade.php(425): Illuminate\\View\\View->render()
+#18 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#19 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#21 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#22 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#23 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\SubscriptionMiddleware.php(17): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SubscriptionMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\XssMiddleware.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XssMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#47 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#56 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#75 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#76 C:\\Users\\ayush\\Downloads\\well-known\\public\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#77 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ayush\\\\...')
+#78 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [client.settings.webhook] not defined. at C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('client.settings...', Array, true)
+#1 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\598a80183855ad68ff43ceca09c027d3ece9d9cf.php(456): route('client.settings...')
+#2 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#3 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#5 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#6 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#7 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\082d73626a982f05657a183640e144a6df4a10fd.php(4): Illuminate\\View\\View->render()
+#10 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#11 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#13 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#14 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#15 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\2b564aafb9e1438d3783b7156f3dadfa72ae75cb.php(434): Illuminate\\View\\View->render()
+#18 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#19 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#21 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#22 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#23 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\SubscriptionMiddleware.php(17): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SubscriptionMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\XssMiddleware.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XssMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#47 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#56 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#75 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#76 C:\\Users\\ayush\\Downloads\\well-known\\public\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#77 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ayush\\\\...')
+#78 {main}
+"} 
+[2026-01-01 23:16:19] local.ERROR: Route [client.settings.webhook] not defined. {"view":{"view":"C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\partials\\sidebar.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-248101983 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#2198</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-248101983\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","client":"<pre class=sf-dump id=sf-dump-634655662 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Client</span> {<a class=sf-dump-ref>#2222</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"7 characters\">clients</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:37</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>company_name</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Ram Dalal Holidays</span>\"
+    \"<span class=sf-dump-key>logo</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"24 characters\">ram-dalal-holidays-k3zje</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-num>101</span>
+    \"<span class=sf-dump-key>timezone</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Asia/Kolkata</span>\"
+    \"<span class=sf-dump-key>address</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Delhi</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>payment_details</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>stripe_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>paddle_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_verify_token</span>\" => \"<span class=sf-dump-str title=\"40 characters\">h8w4eHFFUu9fJsGE2zQCQwCDugPg3NYqEROn53eq</span>\"
+    \"<span class=sf-dump-key>api_key</span>\" => \"<span class=sf-dump-str title=\"40 characters\">9LEu4YcyW3UYfHT7oWb46OMMZQ1WFyiTKvKO9Fr2</span>\"
+    \"<span class=sf-dump-key>webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_enabled</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>webhook_secret</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>whatsapp_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>messenger_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>telegram_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>open_ai_key</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_enable_ai_reply</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:46:49</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 10:08:01</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>marketing</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>utility</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>authentication</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>user_initiated</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>wallet</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:37</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>company_name</span>\" => \"<span class=sf-dump-str title=\"18 characters\">Ram Dalal Holidays</span>\"
+    \"<span class=sf-dump-key>logo</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>slug</span>\" => \"<span class=sf-dump-str title=\"24 characters\">ram-dalal-holidays-k3zje</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-num>101</span>
+    \"<span class=sf-dump-key>timezone</span>\" => \"<span class=sf-dump-str title=\"12 characters\">Asia/Kolkata</span>\"
+    \"<span class=sf-dump-key>address</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Delhi</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>payment_details</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>stripe_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>paddle_customer_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_verify_token</span>\" => \"<span class=sf-dump-str title=\"40 characters\">h8w4eHFFUu9fJsGE2zQCQwCDugPg3NYqEROn53eq</span>\"
+    \"<span class=sf-dump-key>api_key</span>\" => \"<span class=sf-dump-str title=\"40 characters\">9LEu4YcyW3UYfHT7oWb46OMMZQ1WFyiTKvKO9Fr2</span>\"
+    \"<span class=sf-dump-key>webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>webhook_enabled</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>webhook_secret</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>whatsapp_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>messenger_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>telegram_external_webhook_url</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>open_ai_key</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_enable_ai_reply</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:46:49</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 10:08:01</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>marketing</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>utility</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>authentication</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>user_initiated</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+    \"<span class=sf-dump-key>wallet</span>\" => \"<span class=sf-dump-str title=\"4 characters\">0.00</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>logo</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+    \"<span class=sf-dump-key>webhook_enabled</span>\" => \"<span class=sf-dump-str title=\"7 characters\">boolean</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>activeSubscription</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\Subscription
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Subscription</span></span> {<a class=sf-dump-ref>#2224</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"13 characters\">subscriptions</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:36</span> [ &#8230;36]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:36</span> [ &#8230;36]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:32</span> [ &#8230;32]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+    \"<span class=sf-dump-key>user</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\User
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">User</span></span> {<a class=sf-dump-ref>#2225</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">users</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:38</span> [ &#8230;38]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:38</span> [ &#8230;38]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:3</span> [ &#8230;3]
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:29</span> [ &#8230;29]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+      #<span class=sf-dump-protected title=\"Protected property\">rememberTokenName</span>: \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">accessToken</span>: <span class=sf-dump-const>null</span>
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:16</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"13 characters\">ai_secret_key</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"12 characters\">company_name</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"4 characters\">logo</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"8 characters\">timezone</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"4 characters\">slug</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"10 characters\">country_id</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"7 characters\">address</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"20 characters\">webhook_verify_token</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"7 characters\">api_key</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"18 characters\">stripe_customer_id</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"18 characters\">paddle_customer_id</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"19 characters\">big_commerce_status</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"11 characters\">webhook_url</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"15 characters\">webhook_enabled</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"14 characters\">webhook_secret</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-634655662\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","active_subscription":"<pre class=sf-dump id=sf-dump-1053189144 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\Subscription</span> {<a class=sf-dump-ref>#2224</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"13 characters\">subscriptions</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:36</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>277</span>
+    \"<span class=sf-dump-key>client_id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>plan_id</span>\" => <span class=sf-dump-num>12</span>
+    \"<span class=sf-dump-key>is_recurring</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>conversation_remaining</span>\" => <span class=sf-dump-num>4948</span>
+    \"<span class=sf-dump-key>campaign_remaining</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>purchase_date</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-20 23:17:05</span>\"
+    \"<span class=sf-dump-key>expire_date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">2026-01-20</span>\"
+    \"<span class=sf-dump-key>canceled_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>price</span>\" => <span class=sf-dump-num>0.0</span>
+    \"<span class=sf-dump-key>package_type</span>\" => \"<span class=sf-dump-str title=\"7 characters\">monthly</span>\"
+    \"<span class=sf-dump-key>contact_limit</span>\" => <span class=sf-dump-num>2000</span>
+    \"<span class=sf-dump-key>campaign_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>conversation_limit</span>\" => <span class=sf-dump-num>5000</span>
+    \"<span class=sf-dump-key>team_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>max_chatwidget</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>max_flow_builder</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>max_bot_reply</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>ai_credit</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>telegram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>messenger_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>instagram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>trx_id</span>\" => \"<span class=sf-dump-str title=\"9 characters\">offline-0</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => \"<span class=sf-dump-str title=\"7 characters\">offline</span>\"
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"32 characters\">&quot;{\\&quot;payment_type\\&quot;:\\&quot;offline\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:47:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-24 00:17:46</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:36</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>277</span>
+    \"<span class=sf-dump-key>client_id</span>\" => <span class=sf-dump-num>160</span>
+    \"<span class=sf-dump-key>plan_id</span>\" => <span class=sf-dump-num>12</span>
+    \"<span class=sf-dump-key>is_recurring</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>conversation_remaining</span>\" => <span class=sf-dump-num>4948</span>
+    \"<span class=sf-dump-key>campaign_remaining</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>status</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>purchase_date</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-20 23:17:05</span>\"
+    \"<span class=sf-dump-key>expire_date</span>\" => \"<span class=sf-dump-str title=\"10 characters\">2026-01-20</span>\"
+    \"<span class=sf-dump-key>canceled_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>price</span>\" => <span class=sf-dump-num>0.0</span>
+    \"<span class=sf-dump-key>package_type</span>\" => \"<span class=sf-dump-str title=\"7 characters\">monthly</span>\"
+    \"<span class=sf-dump-key>contact_limit</span>\" => <span class=sf-dump-num>2000</span>
+    \"<span class=sf-dump-key>campaign_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>conversation_limit</span>\" => <span class=sf-dump-num>5000</span>
+    \"<span class=sf-dump-key>team_limit</span>\" => <span class=sf-dump-num>5</span>
+    \"<span class=sf-dump-key>max_chatwidget</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>max_flow_builder</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>max_bot_reply</span>\" => <span class=sf-dump-num>2</span>
+    \"<span class=sf-dump-key>ai_credit</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>telegram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>messenger_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>instagram_access</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>trx_id</span>\" => \"<span class=sf-dump-str title=\"9 characters\">offline-0</span>\"
+    \"<span class=sf-dump-key>payment_method</span>\" => \"<span class=sf-dump-str title=\"7 characters\">offline</span>\"
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"32 characters\">&quot;{\\&quot;payment_type\\&quot;:\\&quot;offline\\&quot;}&quot;</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-21 09:47:05</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-12-24 00:17:46</span>\"
+    \"<span class=sf-dump-key>billing_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_email</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_city</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_state</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_zip_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_country</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>billing_phone</span>\" => <span class=sf-dump-const>null</span>
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>payment_details</span>\" => \"<span class=sf-dump-str title=\"5 characters\">array</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>plan</span>\" => <span class=\"sf-dump-note sf-dump-ellipsization\" title=\"App\\Models\\Plan
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">App\\Models</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span><span class=\"sf-dump-ellipsis-tail\">Plan</span></span> {<a class=sf-dump-ref>#2261</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">plans</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+      #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+      +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+      +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+      +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+      +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+      #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:22</span> [ &#8230;22]
+      #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:22</span> [ &#8230;22]
+      #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dates</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+      #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+      +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+      #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:18</span> [ &#8230;18]
+      #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [ &#8230;1]
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:32</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"9 characters\">client_id</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"7 characters\">plan_id</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"12 characters\">is_recurring</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"6 characters\">status</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"13 characters\">purchase_date</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"11 characters\">expire_date</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"5 characters\">price</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"12 characters\">package_type</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"13 characters\">contact_limit</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"14 characters\">campaign_limit</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"18 characters\">campaign_remaining</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"18 characters\">conversation_limit</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"22 characters\">conversation_remaining</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"10 characters\">team_limit</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"14 characters\">max_chatwidget</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"16 characters\">max_flow_builder</span>\"
+    <span class=sf-dump-index>16</span> => \"<span class=sf-dump-str title=\"13 characters\">max_bot_reply</span>\"
+    <span class=sf-dump-index>17</span> => \"<span class=sf-dump-str title=\"15 characters\">telegram_access</span>\"
+    <span class=sf-dump-index>18</span> => \"<span class=sf-dump-str title=\"16 characters\">messenger_access</span>\"
+    <span class=sf-dump-index>19</span> => \"<span class=sf-dump-str title=\"16 characters\">instagram_access</span>\"
+    <span class=sf-dump-index>20</span> => \"<span class=sf-dump-str title=\"6 characters\">trx_id</span>\"
+    <span class=sf-dump-index>21</span> => \"<span class=sf-dump-str title=\"14 characters\">payment_method</span>\"
+    <span class=sf-dump-index>22</span> => \"<span class=sf-dump-str title=\"15 characters\">payment_details</span>\"
+    <span class=sf-dump-index>23</span> => \"<span class=sf-dump-str title=\"11 characters\">canceled_at</span>\"
+    <span class=sf-dump-index>24</span> => \"<span class=sf-dump-str title=\"12 characters\">billing_name</span>\"
+    <span class=sf-dump-index>25</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_email</span>\"
+    <span class=sf-dump-index>26</span> => \"<span class=sf-dump-str title=\"15 characters\">billing_address</span>\"
+    <span class=sf-dump-index>27</span> => \"<span class=sf-dump-str title=\"12 characters\">billing_city</span>\"
+    <span class=sf-dump-index>28</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_state</span>\"
+    <span class=sf-dump-index>29</span> => \"<span class=sf-dump-str title=\"16 characters\">billing_zip_code</span>\"
+    <span class=sf-dump-index>30</span> => \"<span class=sf-dump-str title=\"15 characters\">billing_country</span>\"
+    <span class=sf-dump-index>31</span> => \"<span class=sf-dump-str title=\"13 characters\">billing_phone</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1053189144\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","charts":"<pre class=sf-dump id=sf-dump-1304012147 data-indent-pad=\"  \"><span class=sf-dump-note>array:7</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>labels</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">February</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"5 characters\">March</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"5 characters\">April</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"3 characters\">May</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"4 characters\">June</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"4 characters\">July</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"6 characters\">August</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"9 characters\">September</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"7 characters\">October</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"8 characters\">November</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"8 characters\">December</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"7 characters\">January</span>\"
+  </samp>]
+  \"<span class=sf-dump-key>total_contacts</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>105</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>105</span>
+  </samp>]
+  \"<span class=sf-dump-key>new_contacts</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>105</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+  \"<span class=sf-dump-key>whatsapp_campaign</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>3</span>
+  </samp>]
+  \"<span class=sf-dump-key>telegram_campaign</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+  \"<span class=sf-dump-key>whatsapp_conversation</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>53</span>
+  </samp>]
+  \"<span class=sf-dump-key>telegram_conversation</span>\" => <span class=sf-dump-note>array:12</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>1</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>2</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>3</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>4</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>5</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>6</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>7</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>8</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>9</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>10</span> => <span class=sf-dump-num>0</span>
+    <span class=sf-dump-index>11</span> => <span class=sf-dump-num>0</span>
+  </samp>]
+</samp>]
+</pre><script>Sfdump(\"sf-dump-1304012147\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","usages":"<pre class=sf-dump id=sf-dump-371433318 data-indent-pad=\"  \"><span class=sf-dump-note>array:4</span> [<samp data-depth=1 class=sf-dump-expanded>
+  \"<span class=sf-dump-key>team</span>\" => <span class=sf-dump-num>1</span>
+  \"<span class=sf-dump-key>campaign</span>\" => <span class=sf-dump-num>3</span>
+  \"<span class=sf-dump-key>contact</span>\" => <span class=sf-dump-num>105</span>
+  \"<span class=sf-dump-key>conversation</span>\" => <span class=sf-dump-num>52</span>
+</samp>]
+</pre><script>Sfdump(\"sf-dump-371433318\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","read_rate":"<pre class=sf-dump id=sf-dump-51687726 data-indent-pad=\"  \"><span class=sf-dump-num>71.428571428571</span>
+</pre><script>Sfdump(\"sf-dump-51687726\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":177,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [client.settings.webhook] not defined. at C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('client.settings...', Array, true)
+#1 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\partials\\sidebar.blade.php(512): route('client.settings...')
+#2 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#3 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#5 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#6 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#7 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\layouts\\master.blade.php(4): Illuminate\\View\\View->render()
+#10 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#11 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#13 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#14 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#15 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Users\\ayush\\Downloads\\well-known\\resources\\views\\backend\\client\\dashboard.blade.php(425): Illuminate\\View\\View->render()
+#18 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#19 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#21 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#22 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#23 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\SubscriptionMiddleware.php(17): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SubscriptionMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\XssMiddleware.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XssMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#47 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#56 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#75 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#76 C:\\Users\\ayush\\Downloads\\well-known\\public\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#77 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ayush\\\\...')
+#78 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [client.settings.webhook] not defined. at C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:467)
+[stacktrace]
+#0 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(826): Illuminate\\Routing\\UrlGenerator->route('client.settings...', Array, true)
+#1 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\598a80183855ad68ff43ceca09c027d3ece9d9cf.php(456): route('client.settings...')
+#2 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#3 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#5 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#6 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#7 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\082d73626a982f05657a183640e144a6df4a10fd.php(4): Illuminate\\View\\View->render()
+#10 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#11 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#12 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#13 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#14 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#15 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#16 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#17 C:\\Users\\ayush\\Downloads\\well-known\\storage\\framework\\views\\2b564aafb9e1438d3783b7156f3dadfa72ae75cb.php(434): Illuminate\\View\\View->render()
+#18 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('C:\\\\Users\\\\ayush\\\\...')
+#19 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#20 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\Users\\\\ayush\\\\...', Array)
+#21 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\Users\\\\ayush\\\\...', Array)
+#22 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\Users\\\\ayush\\\\...', Array)
+#23 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#24 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#25 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#26 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#27 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#28 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#29 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#30 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\SubscriptionMiddleware.php(17): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SubscriptionMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ayush\\Downloads\\well-known\\app\\Http\\Middleware\\XssMiddleware.php(24): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\XssMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#47 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#56 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#58 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#70 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#72 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#74 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#75 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#76 C:\\Users\\ayush\\Downloads\\well-known\\public\\index.php(60): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#77 C:\\Users\\ayush\\Downloads\\well-known\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\ayush\\\\...')
+#78 {main}
+"} 

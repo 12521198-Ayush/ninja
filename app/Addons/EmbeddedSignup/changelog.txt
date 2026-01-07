@@ -1,0 +1,5 @@
+<p>10 September 2025 V1.2.0</p>
+<pre>
+    - Fixed:
+      - Embedded Signup Client Login Issue.
+</pre>
